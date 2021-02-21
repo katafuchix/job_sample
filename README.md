@@ -22,5 +22,12 @@ config.active_job.queue_adapter = :sidekiq
 % bin/rails s
 ```
 
+## centOS
+
+```
+# dnf install redis
+# systemctl enable --now redis
+```
+
 * ...
 # job_sample
