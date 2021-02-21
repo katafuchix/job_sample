@@ -1,0 +1,5 @@
+<!-- 新規メッセージ投稿用のフォーム -->
+<%= form_with model: Message.new, local: false do |f| %>
+  <%= f.text_field :content %>
+  <%= f.submit "投稿" %>
+<% end %>
