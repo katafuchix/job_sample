@@ -10,7 +10,7 @@ bundle install --path vendor/bundle
 bin/rails generate job after_post 
 ```
 
-- bin/rails generate job after_post 
+- config/application.rb
 
 ```
 config.active_job.queue_adapter = :sidekiq
